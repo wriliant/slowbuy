@@ -1,0 +1,52 @@
+@import 'util.less';
+
+#main{
+    width: 100%;    
+    height: 1000px;
+    padding: 5px;
+    background-color: #ebebeb;
+    .section{
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        .title{
+            >a{
+                height: 40px;
+                width: 100%;
+                display: block;
+                line-height: 40px;
+                font-size: 16px;
+                padding-left: 16px;
+                color: #000;
+                font-weight: bold;
+                border-bottom: 1px solid #ccc;
+            }
+        }
+        .category{
+
+            >table{
+                width: 100%;
+                font-size: 14px;
+                background: #f9f9f9;
+                border-bottom: 2px solid #888;
+                // border-top: 2px solid #888;
+                margin-left: -1px;
+                margin-top: -3px;
+                td{
+                    border-bottom: 1px solid #ccc;
+                    border-left: 1px solid #ccc;
+                    vertical-align: top;
+                    
+                    text-align: center;
+                    width: 33.33%;
+                    height: 40px;
+                    line-height: 40px;
+                    >a{
+                        display: block;
+                        width: 100%;
+                        color: #333;
+                    }
+                } 
+            }
+        }
+    }
+}
